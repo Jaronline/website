@@ -12,7 +12,9 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
     "lint": "yarn lint:css",
-    "lint:css": "stylelint '**/*.{html,css,vue}'"
+    "lint:css": "stylelint '**/*.{html,css,vue}'",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
     "@fontsource/source-sans-pro": "^5.2.5",
@@ -26,16 +28,20 @@
     "vue": "^3.5.22"
   },
   "devDependencies": {
+    "@testing-library/vue": "^8.1.0",
     "@vitejs/plugin-vue": "^6.0.1",
+    "@vitest/coverage-v8": "^4.0.15",
     "cssnano": "^7.1.2",
     "gh-pages": "^6.3.0",
+    "happy-dom": "^20.0.11",
     "postcss-html": "^1.8.0",
     "postcss-load-config": "^6.0.1",
     "stylelint": "^16.26.1",
     "stylelint-config-html": "^1.1.0",
     "stylelint-config-standard": "^39.0.1",
     "vite": "^7.1.11",
-    "vite-plugin-vue-devtools": "^8.0.3"
+    "vite-plugin-vue-devtools": "^8.0.3",
+    "vitest": "^4.0.15"
   },
   "packageManager": "yarn@4.10.3"
 }
