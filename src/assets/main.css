@@ -1,5 +1,5 @@
-@import "@fontsource/source-sans-pro";
-@import "tailwindcss";
+@import url("@fontsource/source-sans-pro");
+@import url("tailwindcss");
 
 #app {
     font-family: 'Source Sans Pro', sans-serif;
