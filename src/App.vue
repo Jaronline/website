@@ -6,16 +6,8 @@ import Home from "@/components/Home.vue";
 
 <template>
   <Header/>
-  <main>
+  <main class="px-5 py-4 flex-1">
     <Home/>
   </main>
   <Footer/>
 </template>
-
-<style scoped>
-main {
-  padding-inline: 1.25rem;
-  padding-block: 1rem;
-  flex: 1 1 0;
-}
-</style>

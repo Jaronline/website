@@ -1,7 +1,7 @@
 <template>
-  <footer>
-    <p id="copyright">© 2025 Jaron Zijlstra | Jaronline</p>
-    <div id="socials">
+  <footer class="p-5 bg-[#082F49] text-gray-200">
+    <p class="mb-3">© 2025 Jaron Zijlstra | Jaronline</p>
+    <div id="socials" class="flex gap-2">
       <a href="mailto:info@jaronline.dev" target="_blank" rel="noopener noreferrer">
         <font-awesome-icon icon="fa-solid fa-envelope" size="2x" />
       </a>
@@ -14,20 +14,3 @@
     </div>
   </footer>
 </template>
-
-<style scoped>
-footer {
-  padding: 1.25rem;
-  background-color: #082F49;
-  color: rgb(229 231 235 / 1);
-}
-
-#copyright {
-  margin-bottom: .75rem;
-}
-
-#socials {
-  display: flex;
-  gap: .5rem;
-}
-</style>

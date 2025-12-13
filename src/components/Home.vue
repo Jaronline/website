@@ -9,19 +9,8 @@ const age = calculateAge(new Date("2003-06-18"));
 </script>
 
 <template>
-  <div id="content">
+  <div class="text-xl leading-7 space-y-5">
     <p>Hello there, my name is Jaron Zijlstra (a.k.a. Jaronline). A {{age}}-year-old student studying to become a software engineer.</p>
     <p>My hobbies include gaming, cycling and playing Dungeons & Dragons with friends.</p>
   </div>
 </template>
-
-<style scoped>
-#content {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-#content > :not([hidden]) ~ :not([hidden]) {
-  margin-top: 1.25rem;
-}
-</style>
