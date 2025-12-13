@@ -2,7 +2,10 @@
 const config = {
     plugins: {
         '@tailwindcss/postcss': {},
-        'stylelint': {}
+        'stylelint': {},
+        'cssnano': {
+            preset: 'default',
+        },
     }
 };
 
